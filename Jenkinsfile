@@ -56,9 +56,9 @@ pipeline {
                     file: 'target/UPES.jar',
                     type: 'jar'
                     ]], 
-                    credentialsId: 'nexusid', 
+                    credentialsId: '66943f9c-ce68-4817-92c6-3f1f81c5cea7', 
                     groupId: 'com.example', 
-                    nexusUrl: '44.200.37.98:8081', 
+                    nexusUrl: '3.80.161.70:8081', 
                     nexusVersion: 'nexus3', 
                     protocol: 'http', 
                     repository: 'java-release', 
